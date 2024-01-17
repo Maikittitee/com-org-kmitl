@@ -2,8 +2,8 @@
 main:
 	MOV R1, #0
 	MOV R2, #1
-	MOV R3, #2
-	MOV R4, #3
+	MOV R4, #2
+	MOV R5, #3
 
 	STMDB SP!, {R4, R5}
 
