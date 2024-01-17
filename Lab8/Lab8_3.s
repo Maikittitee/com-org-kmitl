@@ -5,7 +5,7 @@ main:
 	MOV R4, #2
 	MOV R5, #3
 
-	STMDB SP!, {R4, R5}
+	STMDB SP!, {R4, R5}		@ push R4 and R5 to sp and change sp pointed to uppest value ot the stack 
 
 	LDMIA SP!, {R1, R2}
 	ADD	R0, R1, #0
